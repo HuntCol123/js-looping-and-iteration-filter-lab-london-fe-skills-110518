@@ -2,5 +2,5 @@
 
 
 function findMatching (drivers, string) {
-  return drivers.filter 
+  return drivers.filter(string);
 }
