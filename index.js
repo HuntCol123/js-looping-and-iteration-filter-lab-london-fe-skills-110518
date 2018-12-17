@@ -9,6 +9,6 @@ function findMatching (drivers, string) {
 }
 
 function fuzzyMatch (drivers, string) {
-  
+  let result = drivers.filter(x => x[0] === string[0])
   
 }
