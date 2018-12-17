@@ -2,5 +2,5 @@
 
 
 function findMatching (drivers, string) {
-  drivers.filter
+  let result = drivers.filter
 }
