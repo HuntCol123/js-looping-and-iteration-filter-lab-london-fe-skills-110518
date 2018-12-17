@@ -4,4 +4,4 @@
 function findMatching (drivers, string) {
   
   
-  var result = drivers.filter(function 
+  var result = drivers.filter(function name
