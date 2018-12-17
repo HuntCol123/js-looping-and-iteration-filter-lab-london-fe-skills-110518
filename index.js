@@ -8,6 +8,5 @@ function findMatching (drivers, string) {
   
   return result;
   
-  log.console(result);
-
+console.log(result);
 }
