@@ -2,7 +2,7 @@
 
 
 function findMatching (drivers, string) {
-  let result = drivers.filter(x => x.toLowerCase().includes string.toLowerCase());
+  let result = drivers.filter(x => x.toLowerCase().includes(string.toLowerCase()));
   
   
   return result;
