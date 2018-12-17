@@ -4,5 +4,5 @@
 function findMatching (drivers, string) {
   var result = drivers.filter(findMatching(string));
   
-  return result;
+  return string === ;
 }
