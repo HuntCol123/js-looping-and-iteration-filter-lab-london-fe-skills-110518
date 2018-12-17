@@ -9,7 +9,7 @@ function findMatching (drivers, string) {
 }
 
 function fuzzyMatch (drivers, string) {
-  let result = drivers.filter(x => x[0,1] === string[0,1,2]);
+  let result = drivers.filter(x => x[0,1] === string[0,1]);
   
   return result;
   
