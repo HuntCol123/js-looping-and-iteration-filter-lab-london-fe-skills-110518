@@ -2,7 +2,7 @@
 
 
 function findMatching (drivers, string) {
-  var result = drivers.filter(findMatching(string));
+  var result = drivers.filter(string);
   
   return string === result;
 }
